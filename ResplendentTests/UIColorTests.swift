@@ -57,6 +57,23 @@ class UIColorTests: XCTestCase {
         XCTAssertEqualWithAccuracy(green, CGFloat(0.64705882), accuracy: CGFloat(FLT_EPSILON), "Green is not converting correctly")
         XCTAssertEqualWithAccuracy(blue, CGFloat(0.15686275), accuracy: CGFloat(FLT_EPSILON), "Blue is not converting correctly")
         
+    }
+    
+    func testUIColorToResplendentColorConversion() {
+        
+        var testColor = UIColor.redColor()
+        var components = testColor.asResplendentColor
+        
+        XCTAssertEqual(components.red, 255, "Red value should be 255")
+        XCTAssertEqual(components.green, 0, "Red value should be 0")
+        XCTAssertEqual(components.blue, 0, "Red value should be 0")
+        
+        testColor = UIColor.purpleColor()
+        components = testColor.asResplendentColor
+        
+        XCTAssertEqual(components.red, 128, "Red value should be 128")
+        XCTAssertEqual(components.green, 0, "Red value should be 0")
+        XCTAssertEqual(components.blue, 128, "Red value should be 128")
         
     }
     

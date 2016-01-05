@@ -49,7 +49,8 @@ class ResplendentHexColorTests: XCTestCase {
         XCTAssertEqual(testHex.components.green, 101, "Green is not converting correctly")
         XCTAssertEqual(testHex.components.blue, 225, "Blue is not converting correctly")
         
-        
     }
+    
+    
     
 }

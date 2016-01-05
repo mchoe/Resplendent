@@ -33,6 +33,11 @@
 import Foundation
 
 
+protocol CanProvideResplendentColor {
+    var asResplendentColor: ResplendentColor { get }
+}
+
+
 struct ResplendentColor {
     let red: UInt
     let green: UInt

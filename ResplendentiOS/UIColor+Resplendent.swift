@@ -58,5 +58,23 @@ extension UIColor {
         self.init(r: Int(hexColor.components.red), g: Int(hexColor.components.green), b: Int(hexColor.components.blue))
     }
     
+}
+
+extension UIColor: CanProvideResplendentColor {
+    
+    var asResplendentColor: ResplendentColor {
+        get {
+            
+            var red: CGFloat = 0.0
+            var green: CGFloat = 0.0
+            var blue: CGFloat = 0.0
+            var alpha: CGFloat = 0.0
+            
+            self.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+            
+            return ResplendentColor(red: UInt(round(red * 255)), green: UInt(round(green * 255)), blue: UInt(round(blue * 255)))
+            
+        }
+    }
     
 }
