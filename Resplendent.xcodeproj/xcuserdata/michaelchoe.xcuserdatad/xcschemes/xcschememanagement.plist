@@ -4,15 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Resplendent.xcscheme</key>
+		<key>ResplendentMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ResplendentTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ResplendentiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8A2A89C41C3C23950047F86A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2A89D41C3C23A50047F86A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2A89E11C3C23B20047F86A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A2A89ED1C3C23D90047F86A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
