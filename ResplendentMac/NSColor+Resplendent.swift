@@ -56,7 +56,7 @@ extension NSColor {
             return
         }
         
-        self.init(r: Int(hexColor.rgb.red), g: Int(hexColor.rgb.green), b: Int(hexColor.rgb.blue))
+        self.init(r: Int(hexColor.components.red), g: Int(hexColor.components.green), b: Int(hexColor.components.blue))
     }
     
 }
