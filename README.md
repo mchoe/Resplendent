@@ -24,6 +24,13 @@ let exampleUIColor = UIColor.brownColor
 let hexString = exampleUIColor.hexString()   // outputs "996633"
 ```
 
+Random Color
+------------
+
+```swift
+let randomColor = UIColor.randomColor()
+```
+
 
 Install
 -------
