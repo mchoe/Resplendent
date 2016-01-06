@@ -41,11 +41,30 @@ protocol HasAlpha {
     var alpha: CGFloat { get }
 }
 
+extension CanProvideResplendentColor {
+    
+    func asHexString() -> String {
+        let components = self.asResplendentColor
+        return "\(components.red.asHexString)\(components.green.asHexString)\(components.blue.asHexString)"
+    }
+    
+}
+
 
 struct ResplendentColor {
     let red: UInt
     let green: UInt
     let blue: UInt
+}
+
+extension ResplendentColor {
+    
+    init(rCGFloat: CGFloat, gCGFloat: CGFloat, bCGFloat: CGFloat) {
+        self.red = UInt(round(rCGFloat * 255))
+        self.green = UInt(round(gCGFloat * 255))
+        self.blue = UInt(round(bCGFloat * 255))
+    }
+    
 }
 
 extension ResplendentColor {

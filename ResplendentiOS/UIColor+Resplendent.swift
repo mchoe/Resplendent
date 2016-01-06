@@ -71,19 +71,11 @@ extension UIColor: CanProvideResplendentColor {
             var alpha: CGFloat = 0.0
             
             self.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
-            
-            return ResplendentColor(red: UInt(round(red * 255)), green: UInt(round(green * 255)), blue: UInt(round(blue * 255)))
+            return ResplendentColor(rCGFloat: red, gCGFloat: green, bCGFloat: blue)
             
         }
     }
     
 }
 
-extension UIColor {
-    
-    func asHexString() -> String {
-        let components = self.asResplendentColor
-        return "\(components.red.asHexString)\(components.green.asHexString)\(components.blue.asHexString)"
-    }
-    
-}
+
