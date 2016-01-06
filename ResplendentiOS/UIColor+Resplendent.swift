@@ -78,3 +78,12 @@ extension UIColor: CanProvideResplendentColor {
     }
     
 }
+
+extension UIColor {
+    
+    func asHexString() -> String {
+        let components = self.asResplendentColor
+        return "\(components.red.asHexString)\(components.green.asHexString)\(components.blue.asHexString)"
+    }
+    
+}

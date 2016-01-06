@@ -30,11 +30,15 @@
 
 
 
-import Foundation
+import UIKit
 
 
 protocol CanProvideResplendentColor {
     var asResplendentColor: ResplendentColor { get }
+}
+
+protocol HasAlpha {
+    var alpha: CGFloat { get }
 }
 
 
@@ -53,10 +57,10 @@ extension ResplendentColor {
 }
 
 
-struct ResplendentHexColor {
+struct ResplendentHexColor: HasAlpha {
     
     let components: ResplendentColor
-    let alpha: Float
+    let alpha: CGFloat
     
     init?(hexString: String) {
         

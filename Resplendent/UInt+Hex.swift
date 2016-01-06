@@ -13,7 +13,7 @@ extension UInt {
     
     var asHexString: String {
         get {
-            return String(self, radix: 16, uppercase: true)
+            return String(format: "%02X", self)
         }
     }
     

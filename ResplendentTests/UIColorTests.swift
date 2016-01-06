@@ -77,4 +77,22 @@ class UIColorTests: XCTestCase {
         
     }
     
+    func testUIColorToHexStringConversion() {
+        
+        var testColor = UIColor.cyanColor()
+        XCTAssertEqual(testColor.asHexString(), "00FFFF", "UIColor to hex string conversion not working correctly")
+        
+        testColor = UIColor.brownColor()
+        XCTAssertEqual(testColor.asHexString(), "996633", "UIColor to hex string conversion not working correctly")
+        
+    }
+    
+    func testConversionParity() {
+        
+        let testHex = "AC98B2"
+        let hexColor = UIColor(hexString: testHex)
+        XCTAssertEqual(hexColor.asHexString(), testHex, "Color conversions don't match each other")
+        
+    }
+    
 }

@@ -21,6 +21,10 @@
 		8A2A8A051C3C2EC60047F86A /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A041C3C2EC60047F86A /* UIColorTests.swift */; };
 		8A2A8A071C3C2ED90047F86A /* NSColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A061C3C2ED90047F86A /* NSColorTests.swift */; };
 		8A2A8A081C3C2EE60047F86A /* UIColor+Resplendent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A001C3C2D200047F86A /* UIColor+Resplendent.swift */; };
+		8A2A8A0D1C3CCB2B0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
+		8A2A8A0F1C3CCB630047F86A /* UIntHexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */; };
+		8A2A8A101C3CCCBE0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
+		8A2A8A111C3CCCBF0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,8 @@
 		8A2A8A021C3C2D2D0047F86A /* NSColor+Resplendent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Resplendent.swift"; sourceTree = "<group>"; };
 		8A2A8A041C3C2EC60047F86A /* UIColorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
 		8A2A8A061C3C2ED90047F86A /* NSColorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorTests.swift; sourceTree = "<group>"; };
+		8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+Hex.swift"; sourceTree = "<group>"; };
+		8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntHexTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 				8A2A89C81C3C23950047F86A /* Resplendent.h */,
 				8A2A89F61C3C23EF0047F86A /* ResplendentCommon.swift */,
 				8A2A89F71C3C23EF0047F86A /* String+Hex.swift */,
+				8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */,
 				8A2A89CA1C3C23950047F86A /* Info.plist */,
 			);
 			path = Resplendent;
@@ -126,6 +133,7 @@
 			children = (
 				8A2A89F01C3C23D90047F86A /* ResplendentHexColorTests.swift */,
 				8A2A89FE1C3C24A50047F86A /* StringHexTests.swift */,
+				8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */,
 				8A2A89F21C3C23D90047F86A /* Info.plist */,
 				8A2A8A041C3C2EC60047F86A /* UIColorTests.swift */,
 				8A2A8A061C3C2ED90047F86A /* NSColorTests.swift */,
@@ -277,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2A89FB1C3C23EF0047F86A /* String+Hex.swift in Sources */,
+				8A2A8A0D1C3CCB2B0047F86A /* UInt+Hex.swift in Sources */,
 				8A2A8A011C3C2D200047F86A /* UIColor+Resplendent.swift in Sources */,
 				8A2A89F81C3C23EF0047F86A /* ResplendentCommon.swift in Sources */,
 			);
@@ -287,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2A89FC1C3C23EF0047F86A /* String+Hex.swift in Sources */,
+				8A2A8A111C3CCCBF0047F86A /* UInt+Hex.swift in Sources */,
 				8A2A8A031C3C2D2D0047F86A /* NSColor+Resplendent.swift in Sources */,
 				8A2A89F91C3C23EF0047F86A /* ResplendentCommon.swift in Sources */,
 			);
@@ -301,8 +311,10 @@
 				8A2A89F11C3C23D90047F86A /* ResplendentHexColorTests.swift in Sources */,
 				8A2A8A051C3C2EC60047F86A /* UIColorTests.swift in Sources */,
 				8A2A8A081C3C2EE60047F86A /* UIColor+Resplendent.swift in Sources */,
+				8A2A8A0F1C3CCB630047F86A /* UIntHexTests.swift in Sources */,
 				8A2A89FF1C3C24A50047F86A /* StringHexTests.swift in Sources */,
 				8A2A89FD1C3C23EF0047F86A /* String+Hex.swift in Sources */,
+				8A2A8A101C3CCCBE0047F86A /* UInt+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
