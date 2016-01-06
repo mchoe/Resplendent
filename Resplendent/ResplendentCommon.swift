@@ -30,7 +30,13 @@
 
 
 
+
+
+#if os(iOS)
 import UIKit
+#elseif os(OSX)
+import Cocoa
+#endif
 
 
 protocol CanProvideResplendentColor {
