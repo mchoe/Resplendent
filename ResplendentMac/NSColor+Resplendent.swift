@@ -51,7 +51,7 @@ extension NSColor {
     
     public convenience init(hexString: String) {
         
-        guard let hexColor = ResplendentColor(hexString: hexString) else {
+        guard let hexColor = ResplendentHexColor(hexString: hexString) else {
             self.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
             return
         }
