@@ -14,6 +14,16 @@ let exampleUIColor = UIColor("#bbcc12")
 let exampleNSColor = NSColor("54ff00")
 ```
 
+Hex String from UIColor and NSColor
+-----------------------------------
+
+Results are returned without the leading "#" and all caps
+
+```swift
+let exampleUIColor = UIColor.brownColor
+let hexString = exampleUIColor.hexString()   // outputs "996633"
+```
+
 
 Install
 -------
