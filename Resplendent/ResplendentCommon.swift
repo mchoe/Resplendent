@@ -45,24 +45,24 @@ extension CanProvideResplendentColor {
     
     func asHexString() -> String {
         let components = self.asResplendentColor
-        return "\(components.red.asHexString)\(components.green.asHexString)\(components.blue.asHexString)"
+        return "\(UInt(components.red).asHexString)\(UInt(components.green).asHexString)\(UInt(components.blue).asHexString)"
     }
     
 }
 
 
 struct ResplendentColor {
-    let red: UInt
-    let green: UInt
-    let blue: UInt
+    let red: Int
+    let green: Int
+    let blue: Int
 }
 
 extension ResplendentColor {
     
     init(rCGFloat: CGFloat, gCGFloat: CGFloat, bCGFloat: CGFloat) {
-        self.red = UInt(round(rCGFloat * 255))
-        self.green = UInt(round(gCGFloat * 255))
-        self.blue = UInt(round(bCGFloat * 255))
+        self.red = Int(round(rCGFloat * 255))
+        self.green = Int(round(gCGFloat * 255))
+        self.blue = Int(round(bCGFloat * 255))
     }
     
 }
@@ -71,6 +71,14 @@ extension ResplendentColor {
     
     static func defaultErrorColor() -> ResplendentColor {
         return ResplendentColor(red: 181, green: 226, blue: 75)
+    }
+    
+}
+
+extension ResplendentColor {
+    
+    static func randomColor() -> ResplendentColor {
+        return ResplendentColor(red: Int(arc4random_uniform(256)), green: Int(arc4random_uniform(256)), blue: Int(arc4random_uniform(256)))
     }
     
 }
@@ -99,7 +107,9 @@ struct ResplendentHexColor: HasAlpha {
                 return nil
             }
             
-            self.components = ResplendentColor(red: (asUInt >> 16) & 0xFF, green: (asUInt >> 8) & 0xFF, blue: asUInt & 0xFF)
+            let asInt = Int(asUInt)
+            
+            self.components = ResplendentColor(red: (asInt >> 16) & 0xFF, green: (asInt >> 8) & 0xFF, blue: asInt & 0xFF)
             self.alpha = 1.0
             
             break
