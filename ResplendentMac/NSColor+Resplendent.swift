@@ -32,8 +32,6 @@
 
 import Cocoa
 
-
-
 extension NSColor {
     
     public convenience init(r: Int, g: Int, b: Int, a: CGFloat? = nil) {

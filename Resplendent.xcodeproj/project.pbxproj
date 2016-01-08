@@ -24,7 +24,23 @@
 		8A2A8A0F1C3CCB630047F86A /* UIntHexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */; };
 		8A2A8A101C3CCCBE0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
 		8A2A8A111C3CCCBF0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
+		8A2A8A351C3F4B910047F86A /* ResplendentMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2A89E21C3C23B20047F86A /* ResplendentMac.framework */; };
+		8A2A8A3E1C3F4BED0047F86A /* NSColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A3D1C3F4BED0047F86A /* NSColorTests.swift */; };
+		8A2A8A3F1C3F4C430047F86A /* ResplendentCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A89F61C3C23EF0047F86A /* ResplendentCommon.swift */; };
+		8A2A8A401C3F4C470047F86A /* String+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A89F71C3C23EF0047F86A /* String+Hex.swift */; };
+		8A2A8A411C3F4C4A0047F86A /* UInt+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */; };
+		8A2A8A421C3F4E8D0047F86A /* NSColor+Resplendent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A8A021C3C2D2D0047F86A /* NSColor+Resplendent.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A2A8A361C3F4B910047F86A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2A89BC1C3C23950047F86A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2A89E11C3C23B20047F86A;
+			remoteInfo = ResplendentMac;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A2A89C81C3C23950047F86A /* Resplendent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resplendent.h; sourceTree = "<group>"; };
@@ -35,7 +51,7 @@
 		8A2A89E21C3C23B20047F86A /* ResplendentMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResplendentMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2A89E41C3C23B20047F86A /* ResplendentMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResplendentMac.h; sourceTree = "<group>"; };
 		8A2A89E61C3C23B20047F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A2A89EE1C3C23D90047F86A /* ResplendentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResplendentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2A89EE1C3C23D90047F86A /* ResplendentiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResplendentiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2A89F01C3C23D90047F86A /* ResplendentHexColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResplendentHexColorTests.swift; sourceTree = "<group>"; };
 		8A2A89F21C3C23D90047F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2A89F61C3C23EF0047F86A /* ResplendentCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResplendentCommon.swift; sourceTree = "<group>"; };
@@ -46,6 +62,9 @@
 		8A2A8A041C3C2EC60047F86A /* UIColorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
 		8A2A8A0C1C3CCB2B0047F86A /* UInt+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+Hex.swift"; sourceTree = "<group>"; };
 		8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntHexTests.swift; sourceTree = "<group>"; };
+		8A2A8A301C3F4B910047F86A /* ResplendentMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResplendentMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2A8A341C3F4B910047F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2A8A3D1C3F4BED0047F86A /* NSColorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +89,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A2A8A2D1C3F4B910047F86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2A8A351C3F4B910047F86A /* ResplendentMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +107,7 @@
 				8A2A89EF1C3C23D90047F86A /* ResplendentTests */,
 				8A2A89D61C3C23A50047F86A /* ResplendentiOS */,
 				8A2A89E31C3C23B20047F86A /* ResplendentMac */,
+				8A2A8A311C3F4B910047F86A /* ResplendentMacTests */,
 				8A2A89C61C3C23950047F86A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +117,8 @@
 			children = (
 				8A2A89D51C3C23A50047F86A /* ResplendentiOS.framework */,
 				8A2A89E21C3C23B20047F86A /* ResplendentMac.framework */,
-				8A2A89EE1C3C23D90047F86A /* ResplendentTests.xctest */,
+				8A2A89EE1C3C23D90047F86A /* ResplendentiOSTests.xctest */,
+				8A2A8A301C3F4B910047F86A /* ResplendentMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +165,15 @@
 				8A2A8A041C3C2EC60047F86A /* UIColorTests.swift */,
 			);
 			path = ResplendentTests;
+			sourceTree = "<group>";
+		};
+		8A2A8A311C3F4B910047F86A /* ResplendentMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2A8A341C3F4B910047F86A /* Info.plist */,
+				8A2A8A3D1C3F4BED0047F86A /* NSColorTests.swift */,
+			);
+			path = ResplendentMacTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +233,9 @@
 			productReference = 8A2A89E21C3C23B20047F86A /* ResplendentMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A2A89ED1C3C23D90047F86A /* ResplendentTests */ = {
+		8A2A89ED1C3C23D90047F86A /* ResplendentiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A2A89F31C3C23D90047F86A /* Build configuration list for PBXNativeTarget "ResplendentTests" */;
+			buildConfigurationList = 8A2A89F31C3C23D90047F86A /* Build configuration list for PBXNativeTarget "ResplendentiOSTests" */;
 			buildPhases = (
 				8A2A89EA1C3C23D90047F86A /* Sources */,
 				8A2A89EB1C3C23D90047F86A /* Frameworks */,
@@ -207,9 +245,27 @@
 			);
 			dependencies = (
 			);
-			name = ResplendentTests;
+			name = ResplendentiOSTests;
 			productName = ResplendentTests;
-			productReference = 8A2A89EE1C3C23D90047F86A /* ResplendentTests.xctest */;
+			productReference = 8A2A89EE1C3C23D90047F86A /* ResplendentiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A2A8A2F1C3F4B910047F86A /* ResplendentMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2A8A3A1C3F4B910047F86A /* Build configuration list for PBXNativeTarget "ResplendentMacTests" */;
+			buildPhases = (
+				8A2A8A2C1C3F4B910047F86A /* Sources */,
+				8A2A8A2D1C3F4B910047F86A /* Frameworks */,
+				8A2A8A2E1C3F4B910047F86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2A8A371C3F4B910047F86A /* PBXTargetDependency */,
+			);
+			name = ResplendentMacTests;
+			productName = ResplendentMacTests;
+			productReference = 8A2A8A301C3F4B910047F86A /* ResplendentMacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -231,6 +287,9 @@
 					8A2A89ED1C3C23D90047F86A = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					8A2A8A2F1C3F4B910047F86A = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 8A2A89BF1C3C23950047F86A /* Build configuration list for PBXProject "Resplendent" */;
@@ -247,7 +306,8 @@
 			targets = (
 				8A2A89D41C3C23A50047F86A /* ResplendentiOS */,
 				8A2A89E11C3C23B20047F86A /* ResplendentMac */,
-				8A2A89ED1C3C23D90047F86A /* ResplendentTests */,
+				8A2A89ED1C3C23D90047F86A /* ResplendentiOSTests */,
+				8A2A8A2F1C3F4B910047F86A /* ResplendentMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +328,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A2A89EC1C3C23D90047F86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2A8A2E1C3F4B910047F86A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,7 +381,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A2A8A2C1C3F4B910047F86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2A8A3E1C3F4BED0047F86A /* NSColorTests.swift in Sources */,
+				8A2A8A3F1C3F4C430047F86A /* ResplendentCommon.swift in Sources */,
+				8A2A8A421C3F4E8D0047F86A /* NSColor+Resplendent.swift in Sources */,
+				8A2A8A401C3F4C470047F86A /* String+Hex.swift in Sources */,
+				8A2A8A411C3F4C4A0047F86A /* UInt+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A2A8A371C3F4B910047F86A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2A89E11C3C23B20047F86A /* ResplendentMac */;
+			targetProxy = 8A2A8A361C3F4B910047F86A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A2A89CB1C3C23950047F86A /* Debug */ = {
@@ -502,6 +589,34 @@
 			};
 			name = Release;
 		};
+		8A2A8A381C3F4B910047F86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResplendentMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.ResplendentMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A2A8A391C3F4B910047F86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResplendentMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.ResplendentMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -532,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A2A89F31C3C23D90047F86A /* Build configuration list for PBXNativeTarget "ResplendentTests" */ = {
+		8A2A89F31C3C23D90047F86A /* Build configuration list for PBXNativeTarget "ResplendentiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2A89F41C3C23D90047F86A /* Debug */,
@@ -540,6 +655,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8A2A8A3A1C3F4B910047F86A /* Build configuration list for PBXNativeTarget "ResplendentMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2A8A381C3F4B910047F86A /* Debug */,
+				8A2A8A391C3F4B910047F86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

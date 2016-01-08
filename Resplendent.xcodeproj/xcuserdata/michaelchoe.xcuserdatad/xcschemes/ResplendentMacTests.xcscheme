@@ -16,16 +16,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A2A89ED1C3C23D90047F86A"
-               BuildableName = "ResplendentiOSTests.xctest"
-               BlueprintName = "ResplendentiOSTests"
-               ReferencedContainer = "container:Resplendent.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A2A8A2F1C3F4B910047F86A"
                BuildableName = "ResplendentMacTests.xctest"
                BlueprintName = "ResplendentMacTests"
