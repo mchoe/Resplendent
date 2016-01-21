@@ -56,6 +56,35 @@ extension CanProvideResplendentColor {
     
 }
 
+extension CanProvideResplendentColor {
+    
+    // These values are from here:
+    // https://www.w3.org/TR/AERT#color-contrast
+    // 
+    // Good SO Question covering this:
+    // http://stackoverflow.com/questions/596216/formula-to-determine-brightness-of-rgb-color
+    
+    var perceivedLuminance: Double {
+        get {
+            let resplendentColor = self.asResplendentColor
+            return (0.299 * Double(resplendentColor.red) + 0.587 * Double(resplendentColor.green) + 0.114 * Double(resplendentColor.blue)) / 255.0
+        }
+    }
+    
+}
+
+extension CanProvideResplendentColor {
+    
+    func isDark() -> Bool {
+        return self.perceivedLuminance < 0.5
+    }
+    
+    func isBright() -> Bool {
+        return !self.isDark()
+    }
+    
+}
+
 
 struct ResplendentColor {
     let red: Int
@@ -88,6 +117,8 @@ extension ResplendentColor {
     }
     
 }
+
+
 
 
 struct ResplendentHexColor: HasAlpha {

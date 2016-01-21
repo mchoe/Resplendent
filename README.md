@@ -31,6 +31,14 @@ Random Color
 let randomColor = UIColor.randomColor()
 ```
 
+Perceived Luminance (Is Dark or Light)
+------------
+
+```swift
+let isBright = UIColor.yellowColor.isBright()
+let isDark = NSColor.brownColor.isDark()
+```
+
 
 Install
 -------

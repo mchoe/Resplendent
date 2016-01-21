@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A07C8F81C5181EF00E09786 /* BrightDarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07C8F71C5181EF00E09786 /* BrightDarkTests.swift */; };
 		8A2A89E51C3C23B20047F86A /* ResplendentMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2A89E41C3C23B20047F86A /* ResplendentMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A2A89F11C3C23D90047F86A /* ResplendentHexColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A89F01C3C23D90047F86A /* ResplendentHexColorTests.swift */; };
 		8A2A89F81C3C23EF0047F86A /* ResplendentCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A89F61C3C23EF0047F86A /* ResplendentCommon.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A07C8F71C5181EF00E09786 /* BrightDarkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightDarkTests.swift; sourceTree = "<group>"; };
 		8A2A89C81C3C23950047F86A /* Resplendent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resplendent.h; sourceTree = "<group>"; };
 		8A2A89CA1C3C23950047F86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2A89D51C3C23A50047F86A /* ResplendentiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResplendentiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +160,7 @@
 		8A2A89EF1C3C23D90047F86A /* ResplendentTests */ = {
 			isa = PBXGroup;
 			children = (
+				8A07C8F71C5181EF00E09786 /* BrightDarkTests.swift */,
 				8A2A89F01C3C23D90047F86A /* ResplendentHexColorTests.swift */,
 				8A2A89FE1C3C24A50047F86A /* StringHexTests.swift */,
 				8A2A8A0E1C3CCB630047F86A /* UIntHexTests.swift */,
@@ -378,6 +381,7 @@
 				8A2A89FF1C3C24A50047F86A /* StringHexTests.swift in Sources */,
 				8A2A89FD1C3C23EF0047F86A /* String+Hex.swift in Sources */,
 				8A2A8A101C3CCCBE0047F86A /* UInt+Hex.swift in Sources */,
+				8A07C8F81C5181EF00E09786 /* BrightDarkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +667,7 @@
 				8A2A8A391C3F4B910047F86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
