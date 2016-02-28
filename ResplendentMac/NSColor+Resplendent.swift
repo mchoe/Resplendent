@@ -79,7 +79,7 @@ extension NSColor: CanProvideResplendentColor {
 
 extension NSColor {
     
-    class func randomColor() -> NSColor {
+    public class func randomColor() -> NSColor {
         let randomResplendentColor = ResplendentColor.randomColor()
         return NSColor(r: randomResplendentColor.red, g: randomResplendentColor.green, b: randomResplendentColor.blue)
     }
