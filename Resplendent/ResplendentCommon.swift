@@ -131,7 +131,7 @@ struct ResplendentHexColor: HasAlpha {
         let truncatedHexString: String
         
         if hexString.hasPrefix("#") {
-            truncatedHexString = hexString.substringFromIndex(hexString.startIndex.advancedBy(1))
+            truncatedHexString = hexString.substring(from: hexString.characters.index(hexString.startIndex, offsetBy: 1))
         } else {
             truncatedHexString = hexString
         }

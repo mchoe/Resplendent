@@ -42,12 +42,12 @@ extension String {
                 return nil
             }
             
-            if let asInt = Int(self) where asInt == 0 {
+            if let asInt = Int(self), asInt == 0 {
                 return 0
             }
             
             var value: UInt32 = 0
-            let isValid = NSScanner(string: self).scanHexInt(&value)
+            let isValid = Scanner(string: self).scanHexInt32(&value)
             if isValid && value != 0 {
                 return UInt(value)
             }
@@ -57,7 +57,7 @@ extension String {
     
     var isValidHexString: Bool {
         
-        if self.rangeOfString("[^0-9a-fA-F]", options: .RegularExpressionSearch, range: nil, locale: nil) != nil {
+        if self.range(of: "[^0-9a-fA-F]", options: .regularExpression, range: nil, locale: nil) != nil {
             return false
         }
         
